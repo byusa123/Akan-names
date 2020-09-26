@@ -111,20 +111,4 @@ function findName(){
 }
 
 
-// function stringlength(inputtxt, minlength, maxlength)
-// { 
-// var field = inputtxt.value; 
-// var mnlen = minlength;
-// var mxlen = maxlength;
 
-// if(field.length<mnlen || field.length> mxlen)
-// { 
-// alert("Please input the year of birth between " +mnlen+ " and " +mxlen+ " characters");
-// return false;
-// }
-// // else
-// // { 
-// // alert('Your year of birth  have accepted.');
-// // return true;
-// // }
-// }
