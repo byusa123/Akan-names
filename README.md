@@ -10,14 +10,15 @@ Screenshot
 </div>
 
 Live Page
-
+ https://byusa123.github.io/Akan-names/
 
 Installation / Setup instruction
 Open Termina
 
 git clone 
+https://github.com/byusa123/Akan-names.git
 
-cd Akan-Names
+cd Akan-names
 
 visual studio code or atom . based on the text editor you have.
 
