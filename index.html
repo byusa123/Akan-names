@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" type="image/png" href="img/akanicon.png" />
+  <title>Akan Name</title>
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poiret+One&family=Quicksand:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="container-fluid" style="background-image:url(img/bg.jpg); font-family: 'Libre Caslon Display', serif;">
+  <div id="heading"> 
+   
+    <button class="btn btn-info mb-5 p-4 font-weight-bold mt-3" style="font-family: 'Poiret One', cursive; border-radius: 10px;"><h3>Akan Name</h3></button>
+    <h1 style="font-family: 'Poiret One', cursive; margin-top: -150px;" >Welcome To Akan Name web application </h1>
+    <h2 id="get" style="font-family: 'Quicksand', sans-serif;">Get Your Akan Name Easy and Fast!</h2>
+  </div>
+  <div class="overlay" style="font-family: 'Quicksand', sans-serif;">
+      <div class="container">
+        <h2 style="font-family: 'Quicksand', sans-serif;">Enter Your Details Here!</h2>
+        <form name="myForm" class="form" onsubmit="validate();" style="font-family: 'Quicksand', sans-serif;">
+          <div class="form-group">
+            <label for="number" style="font-family: 'Quicksand', sans-serif;">Year of Birth:</label>
+            <input type="number" class="form-control" id="year" placeholder="Year of Birth Eg: 2001 if born in 2001" name="year">
+          </div>
+          <div class="form-group">
+            <label for="month" style="font-family: 'Quicksand', sans-serif;">Month of Birth:</label>
+            <input type="number" class="form-control" id="month" placeholder="Month of Birth" name="month">
+          </div>
+          <div class="form-group">
+            <label for="date" style="font-family: 'Quicksand', sans-serif;">Date of Birth:</label>
+            <input type="number" class="form-control" id="date" placeholder="Date of Birth eg 27 for July" name="date">
+          </div>
+          <div class="form-group">
+            <label for="month" style="font-family: 'Quicksand', sans-serif;">Gender</label><br>
+            <div class="form-check-inline">
+              <label class="form-check-label" style="font-family: 'Quicksand', sans-serif;">
+                <input type="radio" class="form-check-input" name="gender" id="male">&nbsp; Male 
+              </label>
+            </div>
+            <div class="form-check-inline">
+              <label class="form-check-label" style="font-family: 'Quicksand', sans-serif;">
+                <input type="radio" class="form-check-input" name="gender" id="female">&nbsp; Female 
+              </label>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-info" onclick="findName();" style="font-family: 'Quicksand', sans-serif;">Get Name</button>
+          <br>
+        </form>
+        <p id="results"> </p>
+      </div>
+  </div>
+  <div class="card-deck" style="font-family: 'Quicksand', sans-serif; opacity: 0.7;">
+    <div class="card ">
+      <div class="card-body text-center">
+        <p class="card-text">Akan Name are derived from Ghanian culture. Get your Akan Name by filling the form above!</p>
+      </div>
+    </div>
+    <div class="card ">
+        <div class="card-body text-center">
+          <p class="card-text">Names are based on gender and the date you were born. <br>
+            <span class="fa-stack fa-lg">
+               
+              </span><a href="http://www.afropedea.org/akan-names"><img src="img/akanref.png" alt=" " style=" width: 30px; height: 30px; margin-left: 10px;">  More info on Akan Name</a>
+          </p>
+        </div>
+      </div>
+      <div class="card ">
+        <div class="card-body text-center">
+          <p class="card-text">Frequently in Ghana, children are given their first name as a 'day name' 
+            which corresponds to the day in the week they were born.</p>
+        </div>
+      </div>
+  </div>
+  <footer class="page-footer " style="font-family: 'Quicksand', sans-serif;">
+    <div class="footer-copyright text-center py-3">Copyright © 2020:
+      <a href="https://github.com/byusa123"> Byusa Uwase Giselle</a>
+    </div>
+  </footer>
+<script src="js/script.js"></script>
+</body>
+</html>
