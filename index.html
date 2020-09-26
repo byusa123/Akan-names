@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
-<body class="container-fluid" style="background-image:url(img/bg.jpg); font-family: 'Libre Caslon Display', serif;">
+<body   class="container-fluid" style="background-image:url(img/bg.jpg); font-family: 'Libre Caslon Display', serif;">
   <div id="heading"> 
    
     <button class="btn btn-info mb-5 p-4 font-weight-bold mt-3" style="font-family: 'Poiret One', cursive; border-radius: 10px;"><h3>Akan Name</h3></button>
@@ -23,10 +23,10 @@
   <div class="overlay" style="font-family: 'Quicksand', sans-serif;">
       <div class="container">
         <h2 style="font-family: 'Quicksand', sans-serif;">Enter Your Details Here!</h2>
-        <form name="myForm" class="form" onsubmit="validate();" style="font-family: 'Quicksand', sans-serif;">
+        <form name="myForm" class="form" onsubmit="validate();" name="form1" style="font-family: 'Quicksand', sans-serif;">
           <div class="form-group">
             <label for="number" style="font-family: 'Quicksand', sans-serif;">Year of Birth:</label>
-            <input type="number" class="form-control" id="year" placeholder="Year of Birth Eg: 2001 if born in 2001" name="year">
+            <input onload='document.form1.text1.focus()' type="number" class="form-control" id="year"  placeholder="Year of Birth Eg: 2001 if born in 2001" name="year">
           </div>
           <div class="form-group">
             <label for="month" style="font-family: 'Quicksand', sans-serif;">Month of Birth:</label>
@@ -49,7 +49,7 @@
               </label>
             </div>
           </div>
-          <button type="submit" class="btn btn-info" onclick="findName();" style="font-family: 'Quicksand', sans-serif;">Get Name</button>
+          <button type="submit" class="btn btn-info"  onclick="findName();" style="font-family: 'Quicksand', sans-serif;">Get Name</button>
           <br>
         </form>
         <p id="results"> </p>
