@@ -5,7 +5,9 @@ Description
 This project is a web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name.
 
 Screenshot
-![Alt text](/relative/path/to/Screenshot.png?raw=true "Optional Title")
+<div align="center">
+    <img src="Screenshot.png" width="400px">
+</div>
 
 Live Page
 
