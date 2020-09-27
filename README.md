@@ -47,7 +47,7 @@ True value is output. Output example: You were born on Sunday and Your akan name
 True value is output. Output example: You were born on Sunday and Your akan name is Akosua! &nbsp If your gender is female.
 Example
 
-century input -- 20
+
 year input -- 
 month input -- 
 date input -- 
