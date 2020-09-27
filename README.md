@@ -50,7 +50,7 @@ Example
 
 year input - 
 month input - 
-date input -- 
+date input -
 gender  male selected, Expected output is You were born on monday and Your akan name is Kwadwo
 Known Bugs
 no bugs
