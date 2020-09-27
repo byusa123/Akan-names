@@ -6,7 +6,7 @@ This project is a web application that takes a user's birthday and calculates th
 
 Screenshot
 <div align="center">
-    <img src="Screenshot.png" width="500px">
+    <img src="Screenshot.png" width="600px">
 </div>
 
 Live Page
