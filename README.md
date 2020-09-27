@@ -30,10 +30,10 @@ Bootstrap
 BDD
 
 
-Enter year of Birth eg 19 for 2019 Input Example 19 Output Example 19
+Enter year of Birth eg 19 for 2019 
 
 
-Enter Date of the month you were born in eg 20 input example 20 output example 20
+Enter Date of the month you were born in eg 20 
 
 Select gender Input example male output male
 
