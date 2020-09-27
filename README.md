@@ -39,7 +39,7 @@ Select gender Input example male output male
 
 Submit. Input example, the program compares the inputs with the conditions set for the inputs eg if No input field is empty, the program executes else an alert to enter valid .
 
-0 < Date >= 31.
+0 < Date >= 31
 0 < Month >= 12
 Gender Male or Female.
 
