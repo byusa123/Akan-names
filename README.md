@@ -13,7 +13,7 @@ Live Page
  https://byusa123.github.io/Akan-names/
 
 Installation / Setup instruction
-Open Termina
+Open Terminal
 
 git clone 
 https://github.com/byusa123/Akan-names.git
