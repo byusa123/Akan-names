@@ -48,8 +48,8 @@ True value is output. Output example: You were born on Sunday and Your akan name
 Example
 
 
-year input -- 
-month input -- 
+year input - 
+month input - 
 date input -- 
 gender  male selected, Expected output is You were born on monday and Your akan name is Kwadwo
 Known Bugs
