@@ -55,7 +55,7 @@ gender  male selected, Expected output is You were born on monday and Your akan 
 Known Bugs
 no bugs
 Contact Information
-If you have any question or contributions, please email me at [byusagisele@gmail.com , 0784315067]
+If you have any question or contributions, please email me at (byusagisele@gmail.com , 0784315067)
 
 License
 MIT License:
