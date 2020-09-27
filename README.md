@@ -58,5 +58,5 @@ Contact Information
 If you have any question or contributions, please email me at (byusagisele@gmail.com , 0784315067)
 
 License
- License:
+ GNU GPLv3 License:
 Copyright (c) 2020 BYUSA UWASE GISELLE
